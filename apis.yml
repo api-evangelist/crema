@@ -1,7 +1,13 @@
 aid: crema
 name: Crema
-description: Crema is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Crema.co is an online specialty-coffee subscription platform and curated
+  marketplace that connects coffee drinkers with independent roasters. Customers take
+  a preference quiz, pick a delivery cadence ranging from every few days to monthly,
+  and receive freshly roasted beans by mail from a rotating selection of more than a
+  thousand coffees sourced from dozens of small-batch roasters. Crema also runs a
+  workplace coffee program for offices. This is a consumer e-commerce brand with no
+  public developer API or developer platform; the repository is retained in the
+  network for completeness and provenance.
 url: https://raw.githubusercontent.com/api-evangelist/crema/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Domain crema.co resolves to a consumer coffee-subscription
+  e-commerce site with no API, developer portal, docs, OpenAPI, SDKs, or GitHub
+  presence; likely a VC-portfolio domain match distinct from any software company
+  named Crema. Spec-dependent enrichment artifacts are not applicable (no fabrication).'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://crema.co/home-images/box.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Coffee
+- Subscription
+- Ecommerce
+- Marketplace
+- Consumer
+- Food and Beverage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://crema.co
+- type: Support
+  url: https://intercom.help/crema-coffee/en
+- type: TermsOfService
+  url: https://crema.co/terms
+- type: PrivacyPolicy
+  url: https://crema.co/privacy
+- type: DomainSecurity
+  url: security/crema-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
