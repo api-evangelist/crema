@@ -19,6 +19,17 @@ x-enrichment-note: 'Domain crema.co resolves to a consumer coffee-subscription
   e-commerce site with no API, developer portal, docs, OpenAPI, SDKs, or GitHub
   presence; likely a VC-portfolio domain match distinct from any software company
   named Crema. Spec-dependent enrichment artifacts are not applicable (no fabrication).'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
