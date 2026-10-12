@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/crema/integrations
+- https://n8n.io/integrations/crema/
+- https://composio.dev/toolkits/crema
+- https://monid.ai/tools/crema
+checked:
+- https://composio.dev/toolkits/crema
+- https://monid.ai/tools/crema
+- https://n8n.io/integrations/crema/
+- https://zapier.com/apps/crema/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
